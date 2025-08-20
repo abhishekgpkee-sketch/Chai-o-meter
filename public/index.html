@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>☕ Chai-o-Meter v2 | Live Leaderboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>☕ Chai-o-Meter v2</h1>
+<h2 id="count">0 cups served today</h2>
+<h3 id="fact">...</h3>
+
+<button id="addCupBtn">☕ Meri bhi ek cup giniye</button>
+
+<div style="margin-top:20px;">
+<input type="text" id="userName" placeholder="Apna naam likho" />
+<input type="number" id="userCups" placeholder="Kitne cup chai piye" min="1"/>
+<input type="file" id="userPhoto" accept="image/*"/>
+<button id="submitCup">Submit</button>
+</div>
+
+<div class="micro-content">
+<p>☕ Count your daily chai cups and see how much India loves tea!</p>
+<p>😂 Funny popups per cups!</p>
+<p>📈 Real-time leaderboard for everyone!</p>
+<p>💡 Optional photo upload for fun!</p>
+<p>🌟 Click, sip, laugh & enjoy daily stats.</p>
+</div>
+
+<div id="leaderboard"><strong>Leaderboard Today:</strong><br/></div>
+
+<script src="script.js"></script>
+</body>
+</html>
